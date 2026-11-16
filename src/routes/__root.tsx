@@ -14,19 +14,17 @@ export const Route = createRootRoute({
         name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
-      {
-        title: 'Kissena Baked Goods',
-      },
+      { title: "Kissena Baked Goods" },
     ],
     links: [
+      { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
       {
         rel: 'stylesheet',
         href: appCss,
       },
       {
-        rel: 'icon',
-        type: 'image/svg+xml',
-        href: '/favicon.svg',
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=IBM+Plex+Sans:wght@400;600;700&display=swap",
       },
     ],
   }),
